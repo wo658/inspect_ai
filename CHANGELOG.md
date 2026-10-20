@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.283](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.282...0.3.283) (2026-10-20)
+
+
+### Features
+
+* **sentinel:** tool steps carry the id of the message that made the call and its request's tool choice ([#5964](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5964)) ([c90c3a1](https://github.com/UKGovernmentBEIS/inspect_ai/commit/c90c3a1bf0be223393dcd0732e5ebc9e4c4222df))
+
+
+### Bug Fixes
+
+* warn when a sample or task sandbox config is not used ([#5736](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5736)) ([6bfa187](https://github.com/UKGovernmentBEIS/inspect_ai/commit/6bfa187cd4e9909222bdb1d9e67549b30f9b89dc))
+* write checkpoint attachments.json in insertion order so restic can deduplicate it ([#5967](https://github.com/UKGovernmentBEIS/inspect_ai/issues/5967)) ([22141c9](https://github.com/UKGovernmentBEIS/inspect_ai/commit/22141c91d80528e729123f6aac287566334367a9))
+
 ## [0.3.282](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.281...0.3.282) (2026-10-19)
 
 
